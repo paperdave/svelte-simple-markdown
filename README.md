@@ -59,7 +59,7 @@ customRules.insertBefore('em', {
 	}
 });
 
-const parser = createParser(defaultRules);
+const parser = createParser(customRules);
 
 export const markdownConfig = {
 	parser,

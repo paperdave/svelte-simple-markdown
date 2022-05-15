@@ -1,7 +1,7 @@
 {
 	"name": "svelte-simple-markdown",
 	"description": "Simple and Extensible Markdown Parser for any framework.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
