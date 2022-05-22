@@ -1,6 +1,6 @@
 # svelte-simple-markdown
 
-This is a fork of [Simple-Markdown](https://github.com/Khan/perseus/tree/main/packages/simple-markdown/src),
+This is a fork of [Simple-Markdown](https://github.com/Khan/perseus/tree/main/packages/simple-markdown),
 modified to target Svelte, however due to separating the parsing and outputting steps, it can be
 used to target any web framework.
 
