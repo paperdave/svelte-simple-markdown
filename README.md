@@ -18,7 +18,7 @@ At Khan Academy, the original `simple-markdown` is used to format over half of t
 because markdown extensions for math text and interactive widgets are necessary.
 
 On davecode.net, I use the svelte version to format custom content within my
-[Q&A system](https://davecode.net/q+a).
+[Input & Output page](https://davecode.net/io).
 
 ## Getting started
 
