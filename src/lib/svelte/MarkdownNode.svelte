@@ -17,7 +17,9 @@
 	{node.content}
 {:else if renderers[node.type]}
 	<svelte:component this={renderers[node.type]} {node}>
-		{#if node.content}
+		{#if typeof node.content === 'string'}
+			{node.content}
+		{:else if node.content}
 			<svelte:self node={node.content} />
 		{/if}
 	</svelte:component>

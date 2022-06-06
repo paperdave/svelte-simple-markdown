@@ -7,7 +7,7 @@
 	import { setContext } from 'svelte';
 	import { defaultRenderers } from './default-renderers';
 	import MarkdownNode from './MarkdownNode.svelte';
-	import type { SvelteRenderers } from './types';
+	import type { MarkdownConfig } from './types';
 
 	export let config: MarkdownConfig;
 	export let value: string = '';
